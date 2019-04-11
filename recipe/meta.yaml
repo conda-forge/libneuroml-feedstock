@@ -22,10 +22,10 @@ requirements:
     - pip
   run:
     - python
+    - six
     - lxml
-    - pytables
-    - jsonpickle
-    - simplejson
+    - pytables>=3.3.0
+    - jsonpickle>=0.9.6
     - pymongo
     - numpy
     - numexpr
