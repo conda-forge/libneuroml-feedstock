@@ -24,8 +24,8 @@ requirements:
     - python
     - six
     - lxml
-    - pytables>=3.3.0
-    - jsonpickle>=0.9.6
+    - pytables >=3.3.0
+    - jsonpickle >=0.9.6
     - pymongo
     - numpy
     - numexpr
