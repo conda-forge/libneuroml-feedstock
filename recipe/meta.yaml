@@ -1,6 +1,6 @@
 {% set name = "libNeuroML" %}
-{% set version = "0.2.47" %}
-{% set sha256 = "eafd63b3f296bc5873469ea769cfb72c2ecd53dd1ed7a220d8ce92b133cd54df" %}
+{% set version = "0.2.50" %}
+{% set sha256 = "2dce702008f34a7bbadeec5a67de09ab5619c933a61d85ea9a3eb9aaab3d771d" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -24,8 +24,8 @@ requirements:
     - python
     - six
     - lxml
-    - pytables>=3.3.0
-    - jsonpickle>=0.9.6
+    - pytables >=3.3.0
+    - jsonpickle >=0.9.6
     - pymongo
     - numpy
     - numexpr
@@ -42,7 +42,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'A Python library for working with neuronal models specified in NeuroML 2'
+  summary: A Python library for working with neuronal models specified in NeuroML 2
   dev_url: https://github.com/NeuralEnsemble/libNeuroML
   doc_url: http://libneuroml.readthedocs.io/
 
