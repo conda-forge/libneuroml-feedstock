@@ -5,11 +5,13 @@ Home: https://github.com/NeuralEnsemble/libNeuroML
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libneuroml-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python library for working with neuronal models specified in NeuroML 2
 
+Development: https://github.com/NeuralEnsemble/libNeuroML
 
+Documentation: http://libneuroml.readthedocs.io/
 
 Current build status
 ====================

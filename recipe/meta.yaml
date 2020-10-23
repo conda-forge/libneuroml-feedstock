@@ -1,6 +1,6 @@
 {% set name = "libNeuroML" %}
-{% set version = "0.2.52" %}
-{% set sha256 = "29767ad618756dba0dc710411006fc29463f19b6b90a6445cedb38070d53017f" %}
+{% set version = "0.2.53" %}
+{% set sha256 = "15ca28ffb01553d93be67e413662000085eb9301ed4aedf4af3358ea6b609a72" %}
 
 package:
   name: {{ name|lower }}
