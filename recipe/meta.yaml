@@ -1,6 +1,6 @@
 {% set name = "libNeuroML" %}
-{% set version = "0.2.53" %}
-{% set sha256 = "15ca28ffb01553d93be67e413662000085eb9301ed4aedf4af3358ea6b609a72" %}
+{% set version = "0.3.1" %}
+{% set sha256 = "093d39e2dc1a2b49edb3be680950cb570a8bb7431c21dc756e96c01fb30ea2d2" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
