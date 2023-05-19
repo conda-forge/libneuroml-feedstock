@@ -1,6 +1,6 @@
 {% set name = "libNeuroML" %}
-{% set version = "0.3.1" %}
-{% set sha256 = "093d39e2dc1a2b49edb3be680950cb570a8bb7431c21dc756e96c01fb30ea2d2" %}
+{% set version = "0.5.2" %}
+{% set sha256 = "e589b539a31cd1272b96b136a66d072b95678a68e2a79efbc04aee647ce4db8b" %}
 
 package:
   name: {{ name|lower }}
@@ -29,6 +29,7 @@ requirements:
     - pymongo
     - numpy
     - numexpr
+    - networkx
 
 test:
   imports:
