@@ -29,6 +29,7 @@ requirements:
     - pymongo
     - numpy
     - numexpr
+    - networkx
 
 test:
   imports:
