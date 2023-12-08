@@ -35,7 +35,6 @@ requirements:
 test:
   imports:
     - neuroml
-    - neuroml.test
     - neuroml.nml
     - neuroml.hdf5
 
