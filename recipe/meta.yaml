@@ -30,6 +30,7 @@ requirements:
     - numpy
     - numexpr
     - networkx
+    - natsort
 
 test:
   imports:
