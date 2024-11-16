@@ -1,6 +1,6 @@
 {% set name = "libNeuroML" %}
-{% set version = "0.5.8" %}
-{% set sha256 = "1019804a01e9b145517c8030377f04d0bb1c46b6bf62972b24ae6d1705d6b6b9" %}
+{% set version = "0.6.5" %}
+{% set sha256 = "f54fecd1472069a72a0869714e98f0cf185e7a64c449ead86db627bb4118ece5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name|lower }}/{{ name|lower }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
