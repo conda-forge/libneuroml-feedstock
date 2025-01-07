@@ -28,7 +28,7 @@ requirements:
     - pytables >=3.3.0
     - jsonpickle >=0.9.6
     - pymongo
-    - numpy
+    - numpy <2.0.0
     - numexpr
     - networkx
     - natsort
